@@ -1,0 +1,109 @@
+body {
+ font-family: 'Roboto', sans-serif;
+ min-height: 100vh;
+}
+
+/* main styless */
+.right-padding {
+ padding-right: 0;
+}
+
+.no-padding {
+ padding: 0;
+}
+
+.max-viewport {
+ min-height: 100vh;
+}
+
+/* navbar */
+.navbar {
+ border-top: 3px solid #f15025;
+ border-bottom: 3px solid #f15025;
+ background-color: #242a33;
+}
+
+.navbar .navbar-brand {
+ color: #f15025;
+}
+
+.navbar .nav-link,
+.navbar .icons {
+ color: #687384;
+}
+
+.navbar .nav-link:hover,
+.navbar .icons:hover {
+ color: #fff;
+}
+
+.navbar .icon {
+ position: relative;
+}
+
+.navbar .icon::after {
+ content: "";
+ position: absolute;
+ top: -5px;
+ left: 10px;
+ height: 10px;
+ width: 10px;
+ border-radius: 50%;
+ background-color: #ef5350;
+}
+
+/* side bar */
+.sidebar {
+ background-color: #242a33;
+}
+
+.sidebar .nav-link,
+.sidebar .navbar-brand {
+ color: #367384;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .navbar-brand:hover {
+ color: #fff;
+}
+
+/* card section */
+.inform-card .card-1 {
+ background-color: #403f4c;
+}
+
+.inform-card .card-2 {
+ background-color: #efbcd5;
+}
+
+.inform-card .card-3 {
+ background-color: #f9dc5c;
+}
+
+.inform-card .card-4 {
+ background-color: #3185fc;
+}
+
+.inform-card .card .body-icon {
+ font-size: 60px;
+ transform: rotate(315deg);
+ color: #f15025;
+}
+
+.inform-card .card .fa,
+.inform-card .card a {
+ color: #f15025;
+}
+
+.inform-card .card a:hover {
+ text-decoration: none;
+ color: #fff;
+}
+
+.inform-card .card {
+ color: #fff;
+}
+
+.inform-card .card-footer {
+ background-color: rgba(0, 0, 0, 0.7);
+}
